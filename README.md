@@ -34,6 +34,10 @@
 | --- | --- |
 | ![投递UI](https://raw.githubusercontent.com/fancyboi999/JobPilot/refs/heads/main/image/README/%E6%8A%95%E9%80%92UI.png) | ![消息UI](https://raw.githubusercontent.com/fancyboi999/JobPilot/refs/heads/main/image/README/%E6%B6%88%E6%81%AFUI.png) |
 
+## 🎬 使用演示（Demo）
+
+![JobPilot Demo](https://raw.githubusercontent.com/fancyboi999/JobPilot/refs/heads/main/image/demo.gif)
+
 ## ⚡ 快速获取脚本
 
 > 第一次使用请先安装脚本管理器（Tampermonkey / ScriptCat），然后一键安装 JobPilot 脚本。下面的两个按钮就是最短路径。
