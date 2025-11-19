@@ -3,17 +3,18 @@
 # 🚀 JOBPILOT 投递助手 (BOSS Helper) 🌟
 
 [![AGPL-3.0 License](https://img.shields.io/badge/License-AGPL_v3-blue.svg?style=for-the-badge&logo=gnu)](https://www.gnu.org/licenses/agpl-3.0)
-[![GitHub Stars](https://img.shields.io/github/stars/fancyboi999/Jobs_helper?style=for-the-badge&logo=github)](https://github.com/fancyboi999/JobPilot)
-[![GitHub Forks](https://img.shields.io/github/forks/fancyboi999/Jobs_helper?style=for-the-badge&logo=github)](https://github.com/fancyboi999/JobPilot)
-[![GitHub Issues](https://img.shields.io/github/issues/fancyboi999/Jobs_helper?style=for-the-badge&logo=github)](https://github.com/fancyboi999/JobPilot/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/fancyboi999/Jobs_helper?style=for-the-badge&logo=github)](https://github.com/fancyboi999/JobPilot/pulls)
-[![Last Commit](https://img.shields.io/github/last-commit/fancyboi999/Jobs_helper?style=for-the-badge&logo=git)](https://github.com/fancyboi999/JobPilot)
+[![GitHub Stars](https://img.shields.io/github/stars/fancyboi999/JobPilot?style=for-the-badge&logo=github)](https://github.com/fancyboi999/JobPilot)
+[![GitHub Forks](https://img.shields.io/github/forks/fancyboi999/JobPilot?style=for-the-badge&logo=github)](https://github.com/fancyboi999/JobPilot)
+[![GitHub Issues](https://img.shields.io/github/issues/fancyboi999/JobPilot?style=for-the-badge&logo=github)](https://github.com/fancyboi999/JobPilot/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/fancyboi999/JobPilot?style=for-the-badge&logo=github)](https://github.com/fancyboi999/JobPilot/pulls)
+[![Last Commit](https://img.shields.io/github/last-commit/fancyboi999/JobPilot?style=for-the-badge&logo=git)](https://github.com/fancyboi999/JobPilot)
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?style=flat-square&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Tampermonkey](https://img.shields.io/badge/Tampermonkey-8.15+-green?style=flat-square&logo=tampermonkey)](https://www.tampermonkey.net/)
 [![Chrome](https://img.shields.io/badge/Chrome-88+-blue?style=flat-square&logo=google-chrome)](https://www.google.com/chrome/)
 [![Firefox](https://img.shields.io/badge/Firefox-85+-orange?style=flat-square&logo=firefox-browser)](https://www.mozilla.org/firefox/)
 
+</div>
 
 ## 📖 项目概览
 
@@ -148,8 +149,8 @@ JOBPILOT 投递助手架构
 在控制面板中设置：
 - ✅ 职位关键词（如：前端、Java、Python）
 - ✅ 工作地点（如：北京、杭州、深圳）
-- ✅ 薪资范围筛选
-- ✅ 公司类型过滤
+
+其他筛选条件，可自行在职位页面通过boss直聘页面直接配置即可
 
 ### 5. 启动自动化
 
@@ -305,7 +306,7 @@ git clone https://github.com/fancyboi999/JobPilot.git
 
 ### 贡献者名单
 
-[![Contributors](https://contrib.rocks/image?repo=fancyboi999/Jobs_helper)](https://github.com/fancyboi999/JobPilot/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=fancyboi999/JobPilot)](https://github.com/fancyboi999/JobPilot/graphs/contributors)
 
 ## 📄 开源协议
 
