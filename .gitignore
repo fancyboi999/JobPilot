@@ -1,0 +1,27 @@
+# 依赖
+node_modules/
+
+# 构建产物（JOBPILOT.js 由 src/ 构建生成）
+# 如果你想提交打包后的文件,可以注释掉下面这行
+# JOBPILOT.js
+
+# 日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.bak
+node_modules/
