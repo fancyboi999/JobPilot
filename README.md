@@ -1,7 +1,5 @@
 <div align="center">
 
-[English](./README.en.md) | 简体中文
-
 # 🚀 JOBPILOT 投递助手 (BOSS Helper) 🌟
 
 [![AGPL-3.0 License](https://img.shields.io/badge/License-AGPL_v3-blue.svg?style=for-the-badge&logo=gnu)](https://www.gnu.org/licenses/agpl-3.0)
@@ -16,19 +14,6 @@
 [![Chrome](https://img.shields.io/badge/Chrome-88+-blue?style=flat-square&logo=google-chrome)](https://www.google.com/chrome/)
 [![Firefox](https://img.shields.io/badge/Firefox-85+-orange?style=flat-square&logo=firefox-browser)](https://www.mozilla.org/firefox/)
 
-</div>
-
----
-
-<div align="center">
-
-**🌟 如果这个项目帮助到了您，请给个Star支持我一下！**
-
-[![Star History Chart](https://api.star-history.com/svg?repos=fancyboi999/Jobs_helper&type=Date)](https://star-history.com/#fancyboi999/Jobs_helper&Date)
-
-</div>
-
----
 
 ## 📖 项目概览
 
@@ -44,8 +29,9 @@
 
 ## 配置成功页面
 
-![投递UI](image/README/投递UI.png)
-![消息UI](image/README/消息UI.png)
+| 投递面板 | 消息面板 |
+| --- | --- |
+| ![投递UI](https://raw.githubusercontent.com/fancyboi999/JobPilot/refs/heads/main/image/README/%E6%8A%95%E9%80%92UI.png) | ![消息UI](https://raw.githubusercontent.com/fancyboi999/JobPilot/refs/heads/main/image/README/%E6%B6%88%E6%81%AFUI.png) |
 
 ## ⚡ 快速获取脚本
 
@@ -59,12 +45,12 @@ Edge/Firefox 用户也可以选择 [ScriptCat（脚本猫）](https://scriptcat.
 
 **步骤 2：打开 JobPilot 脚本链接**
 
-[![安装脚本](https://img.shields.io/badge/Install-JobPilot-green?style=for-the-badge)](https://raw.githubusercontent.com/fancyboi999/JobPilot/refs/heads/main/JOBPILOT.js)
+[![安装脚本](https://img.shields.io/badge/Install-JobPilot-green?style=for-the-badge)](https://raw.githubusercontent.com/fancyboi999/JobPilot/refs/heads/main/JOBPILOT.user.js)
 
 > 点击后脚本管理器会自动弹出安装/更新窗口，直接确认即可。如果没有弹窗，可以复制下面的链接在新标签页打开。
 
 ```
-https://raw.githubusercontent.com/fancyboi999/JobPilot/refs/heads/main/JOBPILOT.js
+https://raw.githubusercontent.com/fancyboi999/JobPilot/refs/heads/main/JOBPILOT.user.js
 ```
 
 完成安装后刷新 BOSS 直聘页面，就能看到上面“配置成功页面”里的 UI 面板。如果后续仓库更新，只要保持脚本启用，Tampermonkey 会自动检测版本并提示升级。
@@ -129,14 +115,14 @@ JOBPILOT 投递助手架构
 1. 先确认 Tampermonkey / ScriptCat 已安装（参考前文“快速获取脚本”）。
 2. 点击下方按钮，脚本管理器会自动打开安装页面：
 
-[![安装脚本](https://img.shields.io/badge/Install-Script-green?style=for-the-badge)](https://raw.githubusercontent.com/fancyboi999/JobPilot/refs/heads/main/JOBPILOT.js)
+[![安装脚本](https://img.shields.io/badge/Install-Script-green?style=for-the-badge)](https://raw.githubusercontent.com/fancyboi999/JobPilot/refs/heads/main/JOBPILOT.user.js)
 
-> 如果点击后没有弹出安装窗口，请复制链接 `https://raw.githubusercontent.com/fancyboi999/JobPilot/refs/heads/main/JOBPILOT.js` 到新标签页手动访问。
+> 如果点击后没有弹出安装窗口，请复制链接 `https://raw.githubusercontent.com/fancyboi999/JobPilot/refs/heads/main/JOBPILOT.user.js` 到新标签页手动访问。
 
 #### 方法二：手动安装
 
 1. 访问项目GitHub页面：https://github.com/fancyboi999/JobPilot
-2. 下载 `JOBPILOT.js` 文件
+2. 下载 `JOBPILOT.user.js` 文件
 3. 在脚本管理器中点击"新建脚本"
 4. 粘贴文件内容并保存
 5. 刷新BOSS直聘页面即可使用
@@ -268,7 +254,7 @@ const CONFIG = {
 
 ```
 jobs-helper/
-├── 📄 JOBPILOT.js      # 主入口文件
+├── 📄 JOBPILOT.user.js # Tampermonkey 最终脚本
 ├── 📄 config.js           # 配置常量
 ├── 📄 core.js             # 核心业务逻辑
 ├── 📄 ui.js               # 用户界面组件

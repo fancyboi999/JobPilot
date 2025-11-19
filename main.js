@@ -1,28 +1,23 @@
 // ==UserScript==
-// @name         JOBPILOT 投递助手
-// @namespace    https://github.com/fancyboi999
-// @version      0.0.0.1
-// @description  🚀 求职工具！🧑‍💻fancyboi999开发用于提高BOSS直聘投递效率，批量沟通，高效求职 💼
+// @name         JobPilot 海投助手
+// @name:en      JobPilot Helper for BOSS
+// @namespace    https://github.com/fancyboi999/JobPilot
+// @version      1.0.0
+// @description  BOSS 直聘批量沟通 + 图片简历 + AI 回复的一站式脚本，装好即可开启自动求职流程。
+// @description:en  All-in-one automation helper for BOSS Zhipin (auto apply, image resume, AI replies).
 // @author       fancyboi999
 // @match        https://www.zhipin.com/web/*
 // @grant        GM_xmlhttpRequest
 // @run-at       document-idle
-// @supportURL   https://github.com/fancyboi999
-// @homepageURL  https://github.com/fancyboi999
+// @supportURL   https://github.com/fancyboi999/JobPilot/issues
+// @homepageURL  https://github.com/fancyboi999/JobPilot
+// @downloadURL  https://raw.githubusercontent.com/fancyboi999/JobPilot/refs/heads/main/JOBPILOT.user.js
+// @updateURL    https://raw.githubusercontent.com/fancyboi999/JobPilot/refs/heads/main/JOBPILOT.user.js
 // @license      AGPL-3.0-or-later
 // @icon         https://static.zhipin.com/favicon.ico
 // @connect      zhipin.com
 // @connect      spark-api-open.xf-yun.com
 // @noframes
-// @require      https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js
-// @require      https://github.com/fancyboi999/JOBPILOT/raw/Boss/config.js
-// @require      https://github.com/fancyboi999/JOBPILOT/raw/Boss/state.js
-// @require      https://github.com/fancyboi999/JOBPILOT/raw/Boss/utils.js
-// @require      https://github.com/fancyboi999/JOBPILOT/raw/Boss/ui.js
-// @require      https://github.com/fancyboi999/JOBPILOT/raw/Boss/core.js
-// @require      https://github.com/fancyboi999/JOBPILOT/raw/Boss/letter.js
-// @require      https://github.com/fancyboi999/JOBPILOT/raw/Boss/guide.js
-// @require      https://github.com/fancyboi999/JOBPILOT/raw/Boss/settings.js
 // ==/UserScript==
 
 (function () {

@@ -2,7 +2,7 @@
   "name": "jobpilot",
   "version": "1.0.0",
   "description": "JOBPILOT 投递助手 - 自动化求职工具",
-  "main": "JOBPILOT.js",
+  "main": "JOBPILOT.user.js",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",

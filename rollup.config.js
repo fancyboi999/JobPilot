@@ -39,7 +39,7 @@ function userscriptBanner() {
 export default {
   input: 'src/index.js', // 入口文件
   output: {
-    file: 'JOBPILOT.js',
+    file: 'JOBPILOT.user.js',
     format: 'iife', // 立即执行函数表达式
     name: 'JobPilot',
     banner: '', // banner 由插件处理
